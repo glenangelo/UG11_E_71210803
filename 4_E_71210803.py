@@ -9,7 +9,6 @@ def generate(level):
         print("Berapakah hasil dari ",n,operator,m)
         hasil = eval(str(n) + operator + str(m))
         hasil2 = '{0:.3f}'.format(hasil)
-        print(hasil2)
         jawaban = float(input("Masukkan Jawaban Anda : "))
         jawaban2 = '{0:.3f}'.format(jawaban)
 
